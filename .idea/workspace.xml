@@ -4,44 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7b3aa2b-9a50-4b94-a73a-186f98a06ffe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Calculator_App_Automation_With_Selenium_Appium" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../capital-ui-test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../catalyst-qa-api/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/src/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/src/main/java/org/icipvf/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../icip-vf/src/main/java/util/Globals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java-appium-local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../misc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pintu-assesment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxxerff-mobile-test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxxerff-mobile-test/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxxerff-mobile-test/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxxerff-mobile-test/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxxerff-mobile-test/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxxerff-mobile-test/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxxerff-mobile-test/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxxerff-mobile-test/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxxerff-mobile-test/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxxerff-mobile-test/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxxerff-mobile-test/src/main/java/config/baseSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xxxerff-mobile-test/src/test/resources/android-suite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="d7b3aa2b-9a50-4b94-a73a-186f98a06ffe" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +23,23 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="amartha-test" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="amartha-test" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="amartha-test" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -77,6 +56,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -88,12 +70,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build amartha-test.executor": "Run",
+    "Gradle.HomeTest.testAddtoCart.executor": "Run",
+    "Gradle.HomeTest.testHamburgerButton.executor": "Run",
     "Gradle.LoginTest.executor": "Run",
+    "Gradle.LoginTest.test.executor": "Run",
+    "Gradle.LoginTest.testLogin.executor": "Run",
+    "Gradle.LoginTest.testLogin1.executor": "Run",
+    "Gradle.LoginTest.testLoginUtil.executor": "Run",
+    "Gradle.LoginTest.testinvalidLogin1.executor": "Run",
     "Gradle.LoginTest.validLogin.executor": "Run",
     "Gradle.RegisterTest.executor": "Run",
     "Gradle.RegisterTest.invalidRegister.executor": "Run",
     "Gradle.RegisterTest.validLogin.executor": "Run",
     "Gradle.RegisterTest.validRegister.executor": "Run",
+    "Gradle.amartha-test [build].executor": "Run",
+    "Gradle.amartha-test [clean].executor": "Run",
+    "Gradle.amartha-test [jar].executor": "Run",
+    "Gradle.amartha-test [test].executor": "Run",
     "Gradle.pintu-mobile-test [build].executor": "Run",
     "Gradle.pintu-mobile-test [clean].executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -101,9 +95,11 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "TestNG.baseSetup.test.executor": "Run",
+    "TestNG.baseSetup.testLogin.executor": "Run",
+    "TestNG.util.login.executor": "Run",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/tio.hizbullah/Documents/project/amartha-test",
+    "last_opened_file_path": "/Users/tio.hizbullah/Documents/project/amartha-test/src/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -115,8 +111,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.LoginTest.validLogin">
-    <configuration name="LoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.amartha-test [build]">
+    <configuration name="HomeTest.testHamburgerButton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -129,7 +131,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;LoginTest&quot;" />
+            <option value="&quot;HomeTest.testHamburgerButton&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -140,109 +142,101 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTest.validLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="amartha-test [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;LoginTest.validLogin&quot;" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegisterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="amartha-test [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;RegisterTest&quot;" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegisterTest.invalidRegister" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="amartha-test [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;RegisterTest.invalidRegister&quot;" />
+            <option value="jar" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegisterTest.validRegister" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="amartha-test [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;RegisterTest.validRegister&quot;" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LoginTest.validLogin" />
-        <item itemvalue="Gradle.RegisterTest" />
-        <item itemvalue="Gradle.RegisterTest.invalidRegister" />
-        <item itemvalue="Gradle.RegisterTest.validRegister" />
-        <item itemvalue="Gradle.LoginTest" />
+        <item itemvalue="Gradle.amartha-test [build]" />
+        <item itemvalue="Gradle.amartha-test [clean]" />
+        <item itemvalue="Gradle.amartha-test [jar]" />
+        <item itemvalue="Gradle.amartha-test [test]" />
+        <item itemvalue="Gradle.HomeTest.testHamburgerButton" />
       </list>
     </recent_temporary>
   </component>
@@ -265,11 +259,22 @@
       <workItem from="1723037310675" duration="4098000" />
       <workItem from="1724148933595" duration="703000" />
       <workItem from="1727700280026" duration="1011000" />
-      <workItem from="1727704688603" duration="34000" />
+      <workItem from="1727704688603" duration="22310000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/build.gradle</url>
+          <line>51</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

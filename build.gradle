@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'io.qameta.allure' version '2.11.2' // Allure plugin for reporting
 }
 
 group = 'com.amartha-test'
@@ -8,6 +9,12 @@ version = '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
 }
+def aspectJVersion = '1.9.20.1'
+
+configurations {
+    aspectjAgent
+}
+
 
 dependencies {
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
@@ -19,10 +26,38 @@ dependencies {
     // https://mvnrepository.com/artifact/io.qameta.allure/allure-testng
     implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.24.0'
     implementation group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2'
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.8.0'
+    aspectjAgent "org.aspectj:aspectjweaver:$aspectJVersion"
+    // Add Allure dependencies
+    testImplementation 'io.qameta.allure:allure-testng:2.11.2'
+    testImplementation 'org.testng:testng:7.7.0'
+
+
+
 }
 
 test {
     useTestNG(){
-//        suites"./src/test/resources/TestNG.xml"
+        suites"./src/test/resources/testng.xml"
+    }
+//    cify TestNG or JUnit 5 based on your test framework
+    jvmArgs = ["-javaagent:${configurations.aspectjAgent.singleFile}"]
+
+}
+
+allure {
+    autoconfigure = true // Enable auto-configuration for Allure
+}
+
+task generateAllureReport {
+    dependsOn test // Ensure tests are run before generating the report
+
+    doLast {
+        // The allure command line tool generates reports from the results
+        exec {
+            executable 'allure' // Make sure allure command is in your PATH
+            args 'generate', "${buildDir}/allure-results", "-o", "${buildDir}/allure-report"
+        }
     }
 }
+

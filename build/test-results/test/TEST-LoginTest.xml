@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-20T10:17:37" hostname="Tio-Hizbullah.local" time="93.616">
+<testsuite name="LoginTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-10-01T12:53:30" hostname="Tio-Hizbullah.local" time="7.144">
   <properties/>
-  <testcase name="validLogin" classname="LoginTest" time="93.616"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <testcase name="testLogin1" classname="LoginTest" time="6.831"/>
+  <testcase name="testinvalidLogin1" classname="LoginTest" time="0.295"/>
+  <system-out><![CDATA[Running setupTest: Initializing ChromeDriver...
+Driver initialized: true
+Running setupClass: Setting up WebDriverManager...
+Running setupTest: Initializing ChromeDriver...
+Running test: driver is initialized
+Screenshot saved at: screenshots/testLogin1.png
+Running setupClass: Setting up WebDriverManager...
+Running setupTest: Initializing ChromeDriver...
+Running test: driver is initialized
+Epic sadface: Username and password do not match any user in this service
+Screenshot saved at: screenshots/testLogin1.png
+]]></system-out>
+  <system-err><![CDATA[Oct 01, 2024 7:53:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 01, 2024 7:53:29 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.13.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
 </testsuite>

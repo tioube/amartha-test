@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HomeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-10-01T12:53:38" hostname="Tio-Hizbullah.local" time="5.164">
+  <properties/>
+  <testcase name="testAddtoCart" classname="HomeTest" time="1.579"/>
+  <testcase name="testHamburgerButton" classname="HomeTest" time="3.575"/>
+  <system-out><![CDATA[Running setupTest: Initializing ChromeDriver...
+Driver initialized: true
+Running setupClass: Setting up WebDriverManager...
+Running setupTest: Initializing ChromeDriver...
+Total items: 6
+Item names: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+Total items: 6
+Item names: [Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]
+Running setupClass: Setting up WebDriverManager...
+Running setupTest: Initializing ChromeDriver...
+]]></system-out>
+  <system-err><![CDATA[Oct 01, 2024 7:53:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 01, 2024 7:53:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.13.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>
